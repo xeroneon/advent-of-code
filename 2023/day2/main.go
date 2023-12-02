@@ -1,7 +1,7 @@
 package main
 
 import (
-	"day2/partone"
+	"day2/parttwo"
 	"fmt"
 	"os"
 )
@@ -21,5 +21,5 @@ func main() {
 
 	defer file.Close()
 
-	partone.PartOne(file)
+	parttwo.PartTwo(file)
 }
