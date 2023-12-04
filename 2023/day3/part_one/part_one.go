@@ -42,7 +42,6 @@ func Solve(file *os.File) {
 		for colIdx, char := range row {
 			if !unicode.IsDigit(char) {
 				if valid && len(partNumber) > 0 {
-					fmt.Println(partNumber)
 					value, err := strconv.Atoi(partNumber)
 					if err != nil {
 						log.Fatal(err)
