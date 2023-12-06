@@ -1,7 +1,7 @@
 package main
 
 import (
-	partone "day3/part_one"
+	parttwo "day3/part_two"
 	"fmt"
 	"os"
 )
@@ -21,6 +21,6 @@ func main() {
 
 	defer file.Close()
 
-	partone.Solve(file)
+	parttwo.Solve(file)
 	// gpt.Solve()
 }
